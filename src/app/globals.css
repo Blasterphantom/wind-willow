@@ -26,6 +26,13 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.home {
+  background-image: url('/Assets/Images/willow-tree.png.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
