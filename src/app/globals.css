@@ -26,6 +26,18 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.navbar-nav .nav-link {
+  display: block !important;
+  visibility: visible !important;
+}
+
+/* Additional debug styles */
+.debug-nav-link {
+  background-color: yellow !important; /* Highlight the links to ensure they are visible */
+  border: 1px solid blue !important; /* Add a border to see the element boundaries */
+}
+
+
 .home {
   background-image: url('/Assets/Images/willow-tree.png.png');
   background-position: center;
